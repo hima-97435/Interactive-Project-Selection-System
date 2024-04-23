@@ -1,0 +1,36 @@
+Below is a step-by-step pseudo code explanation for the provided 
+Python quiz project, along with the concepts used in each step:
+
+1. Welcome Message and Play Confirmation:
+Display a welcome message to the user.
+Ask the user if they want to play the quiz.
+Use the input() function to receive user input.
+
+2. Input Validation and Quitting:
+Convert the user's input to lowercase using the lower() method for case-insensitivity.
+Check if the user's input is not equal to "yes." If so, quit the program using the quit() function.
+
+3. Starting the Quiz:
+If the user chooses to play ("yes"), display a confirmation message and initialize a variable score to keep track of correct answers.
+
+4. Asking Quiz Questions:
+Use the input() function to ask questions one by one and receive the user's answers.
+Compare the user's answers with the correct answers using conditional statements (if, else).
+Increment the score variable for each correct answer.
+
+5. Scoring and Feedback:
+After all questions are answered, display the total number of correct answers (score) and calculate the percentage.
+Use string concatenation and conversion to display the score and percentage.
+
+Concepts Used:
+
+1. Input/Output: Using input() to get user input and print() to display messages.
+2. String Comparison: Checking user answers using conditional statements 
+    (if, else) and string comparison.
+3. Variable Manipulation: Using variables (score, answer) to track 
+    and manage data during the program execution.
+4. Looping (not explicitly shown): The code logic is repeated for each quiz question, 
+    demonstrating the concept of repetition in programming.
+5. String Formatting: Using string concatenation (+) and placeholders ({}) 
+    for displaying formatted output.
+

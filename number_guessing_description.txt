@@ -1,0 +1,38 @@
+Sure, here is a step-by-step explanation for the provided Python number guessing game project, along with the concepts used in each step:
+
+1. Importing Required Module:
+The random module is imported at the beginning of the program. This module is used to generate random numbers which are used to randomly select the target number.
+
+2. Setting the Range:
+The user is asked to enter the upper limit for the range of possible numbers. The input() function is used to receive user input.
+
+3. Input Validation:
+The isdigit() method is used to check if the user's input is a number. If it's not, a message is displayed and the program is terminated using the quit() function. If the input is a number but less than or equal to 0, a message is displayed and the program is also terminated.
+
+4. Generating the Target Number:
+A random number between 0 and the user's input is generated and stored in the variable `random_number`.
+
+5. Initializing the Guess Counter:
+A variable `guesses` is initialized to keep track of the number of guesses the user makes.
+
+6. Guessing Loop:
+A while loop is used to continuously ask the user for their guess until they guess the correct number. Inside this loop, the guessing logic is implemented.
+
+7. User Guess:
+The user is asked to enter their guess. The input is checked to ensure it's a number. If it's not, a message is displayed and the loop continues to the next iteration.
+
+8. Checking the Guess:
+The user's guess is compared with the target number. If the guess is correct, a success message is displayed and the loop is broken. If the guess is too high or too low, a hint is displayed.
+
+9. Displaying the Result:
+After the user guesses the correct number, the total number of guesses is displayed.
+
+Concepts Used:
+
+1. Random Number Generation: The random module is used to generate random numbers.
+2. Loops: A while loop is used to continuously run the game.
+3. Conditional Statements: if and else statements are used to implement the game logic.
+4. User Input: The input() function is used to get the user's guess.
+5. String Manipulation: The isdigit() method is used to check if the user's input is a number.
+6. Variable Manipulation: Variables are used to keep track of the target number and the number of guesses.
+7. Output: The print() function is used to display messages to the user.

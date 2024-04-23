@@ -1,0 +1,42 @@
+Sure, here is a step-by-step explanation for the provided Python Rock-Paper-Scissors game project, along with the concepts used in each step:
+
+1. Importing Required Module:
+The random module is imported at the beginning of the program. This module is used to generate random numbers which are used to randomly select the computer's choice.
+
+2. Initializing Score Variables:
+Two variables, `user_wins` and `computer_wins`, are initialized to keep track of the number of times the user and the computer win, respectively.
+
+3. Defining Options:
+A list named `options` is defined which contains the three possible options: "rock", "paper", and "scissors".
+
+4. Game Loop:
+A while loop is used to continuously run the game until the user decides to quit. Inside this loop, the game logic is implemented.
+
+5. User Input:
+The user is asked to enter their choice. The input is converted to lowercase to make the game case-insensitive.
+
+6. Quitting the Game:
+If the user enters "q", the game is terminated by breaking the loop.
+
+7. Input Validation:
+If the user's input is not one of the options, the loop continues to the next iteration, asking the user for their input again.
+
+8. Computer's Choice:
+A random number between 0 and 2 is generated and used to pick the computer's choice from the options list.
+
+9. Determining the Winner:
+A series of conditional statements (if, elif) are used to compare the user's choice and the computer's choice and determine the winner of the round. The user's and computer's score is updated accordingly.
+
+10. Displaying the Result:
+After each round, a message is printed to let the user know whether they won or lost. When the user decides to quit the game, the total scores are displayed.
+
+Concepts Used:
+
+1.  Random Number Generation: The random module is used to generate random numbers.
+2.  Lists: A list is used to store the possible options.
+3.  Loops: A while loop is used to continuously run the game.
+4.  Conditional Statements: if and elif statements are used to implement the game logic.
+5.  User Input: The input() function is used to get the user's choice.
+6.  String Manipulation: The lower() method is used to make the game case-insensitive.
+7.  Variable Manipulation: Variables are used to keep track of the scores.
+8.  Output: The print() function is used to display messages to the user.

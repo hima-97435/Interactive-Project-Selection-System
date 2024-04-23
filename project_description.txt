@@ -1,0 +1,23 @@
+Project - 01 {A Simple Quiz}
+This  quiz project is designed to test and improve your coding skills, 
+specifically in Python programming language.
+Let's break down how this project tests your coding abilities:
+This project have :
+1. User Interaction
+2. Conditional Statemnets
+
+
+Project -02 {Number Guessing Game }
+This number guessing game project is a great way to test and
+improve your coding skills, particularly in Python programming.
+Let's break down how this project tests your coding abilities:
+1. User Input Handling
+2. Random Number Generation
+
+
+Project -03 {Rock Paper Scissors}
+This Rock-Paper-Scissors game project is an engaging way to test and 
+enhance your coding skills, particularly in Python programming. 
+Let's break down how this project tests your coding abilities:
+1. Game Logic
+2. Randomization
